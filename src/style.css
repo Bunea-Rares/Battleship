@@ -1,0 +1,39 @@
+.square {
+    min-height: 3rem;
+    min-width: 3rem;
+    background-color: #3b789e;
+    border: 1px solid black;
+}
+
+
+.min-height {
+    min-height: 200px;
+}
+
+.player-ship-square {
+    background-color: rgb(39, 148, 61) !important
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.pointer:hover  {
+    background-color: #5f839a !important
+}
+
+.hit {
+    background-color: #ff0000 !important
+}
+
+.miss {
+    background-color: rgb(125, 154, 98) !important
+}
+
+.sunk {
+    background-color: rgb(86, 17, 17) !important
+}
+
+.disabled {
+    pointer-events: none;
+}
